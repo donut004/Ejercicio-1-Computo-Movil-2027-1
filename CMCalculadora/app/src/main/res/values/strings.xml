@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CM Calculadora</string>
+
+    <!-- Comunes -->
+    <string name="boton_volver">&lt; Volver</string>
+    <string name="boton_limpiar">Limpiar</string>
+    <string name="boton_calcular">Calcular</string>
+    <string name="cd_fondo">Fondo de la aplicación</string>
+
+    <!-- Menú principal -->
+    <string name="menu_titulo">Calculadora Financiera</string>
+    <string name="menu_interes_compuesto">1. Interés Compuesto</string>
+    <string name="menu_anualidad">2. Anualidad Ordinaria</string>
+    <string name="menu_cetes">3. Valuación de CETES</string>
+    <string name="menu_bono">4. Valuación de Bonos</string>
+
+    <!-- Interés compuesto -->
+    <string name="interes_titulo">Interés Compuesto</string>
+    <string name="interes_subtitulo">Cálculo de interés por periodo</string>
+    <string name="cd_formula_interes">Fórmula de Interés Compuesto</string>
+    <string name="interes_capital">Capital Inicial (P)</string>
+    <string name="interes_tasa">Tasa de Interés (%) por periodo (r)</string>
+    <string name="interes_acumulados">Intereses Acumulados (ia)</string>
+    <string name="interes_resultado_inicial">Resultado: $0.00</string>
+    <string name="interes_resultado">Interés generado (I): $%1$.2f</string>
+
+    <!-- Anualidad -->
+    <string name="anualidad_titulo">Valor Presente</string>
+    <string name="anualidad_subtitulo">Anualidad Ordinaria (Vencida)</string>
+    <string name="cd_formula_anualidad">Fórmula de Anualidad Ordinaria</string>
+    <string name="anualidad_monto">Monto de la Anualidad (A)</string>
+    <string name="anualidad_tasa">Tasa de Interés (%) periódica (r)</string>
+    <string name="anualidad_pagos">Número Total de Pagos (n)</string>
+    <string name="anualidad_resultado_inicial">Resultado: $0.00</string>
+    <string name="anualidad_resultado">Valor Presente (P): $%1$.2f</string>
+
+    <!-- CETES -->
+    <string name="cetes_titulo">Valuación de CETES</string>
+    <string name="cd_formula_cetes">Fórmula de Valuación de CETES</string>
+    <string name="cetes_valor_nominal">Valor Nominal (ej. 10.00)</string>
+    <string name="cetes_tasa">Tasa de Rendimiento Anual (%)</string>
+    <string name="cetes_plazo">Plazo en Días (ej. 28, 91)</string>
+    <string name="cetes_resultado_inicial">Precio de Compra: $0.00</string>
+    <string name="cetes_resultado">Precio (P): $%1$.4f</string>
+
+    <!-- Bonos -->
+    <string name="bono_titulo">Valuación de Bonos M</string>
+    <string name="cd_formula_bono">Fórmula de Valuación de Bonos</string>
+    <string name="bono_valor_nominal">Valor Nominal (ej. 100.00)</string>
+    <string name="bono_tasa_cupon">Tasa Cupón Anual (%)</string>
+    <string name="bono_tasa_mercado">Tasa Mercado (%)</string>
+    <string name="bono_cupones">Número Cupones Restantes</string>
+    <string name="bono_dias_cupon">Días del Cupón (ej. 182)</string>
+    <string name="bono_resultado_inicial">Precio del Bono: $0.00</string>
+    <string name="bono_resultado">Precio (P): $%1$.2f</string>
+
+    <!-- MainActivity (pantallas de ejemplo) -->
+    <string name="main_pantalla_compacta">Pantalla Compacta</string>
+    <string name="main_pantalla_intermedia">Pantalla Intermedia</string>
+    <string name="main_pantalla_ancha">Pantalla Ancha</string>
+</resources>

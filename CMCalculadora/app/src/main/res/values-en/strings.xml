@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CM Calculator</string>
+
+    <!-- Common -->
+    <string name="boton_idioma">US</string>
+    <string name="boton_volver">&lt; Back</string>
+    <string name="boton_limpiar">Clear</string>
+    <string name="boton_calcular">Calculate</string>
+    <string name="cd_fondo">App background</string>
+
+    <!-- Main menu -->
+    <string name="menu_titulo">Financial Calculator</string>
+    <string name="menu_interes_compuesto">1. Compound Interest</string>
+    <string name="menu_anualidad">2. Ordinary Annuity</string>
+    <string name="menu_cetes">3. CETES Valuation</string>
+    <string name="menu_bono">4. Bond Valuation</string>
+
+    <!-- Compound interest -->
+    <string name="interes_titulo">Compound Interest</string>
+    <string name="interes_subtitulo">Interest calculation per period</string>
+    <string name="cd_formula_interes">Compound interest formula</string>
+    <string name="interes_capital">Initial Capital (P)</string>
+    <string name="interes_tasa">Interest Rate (%) per period (r)</string>
+    <string name="interes_acumulados">Accrued Interest (ia)</string>
+    <string name="interes_resultado_inicial">Result: $0.00</string>
+    <string name="interes_resultado">Interest earned (I): $%1$.2f</string>
+
+    <!-- Annuity -->
+    <string name="anualidad_titulo">Present Value</string>
+    <string name="anualidad_subtitulo">Ordinary Annuity (Payment in Arrears)</string>
+    <string name="cd_formula_anualidad">Ordinary annuity formula</string>
+    <string name="anualidad_monto">Annuity Amount (A)</string>
+    <string name="anualidad_tasa">Periodic Interest Rate (%) (r)</string>
+    <string name="anualidad_pagos">Total Number of Payments (n)</string>
+    <string name="anualidad_resultado_inicial">Result: $0.00</string>
+    <string name="anualidad_resultado">Present Value (P): $%1$.2f</string>
+
+    <!-- CETES -->
+    <string name="cetes_titulo">CETES Valuation</string>
+    <string name="cd_formula_cetes">CETES valuation formula</string>
+    <string name="cetes_valor_nominal">Face Value (e.g. 10.00)</string>
+    <string name="cetes_tasa">Annual Yield Rate (%)</string>
+    <string name="cetes_plazo">Term in Days (e.g. 28, 91)</string>
+    <string name="cetes_resultado_inicial">Purchase Price: $0.00</string>
+    <string name="cetes_resultado">Price (P): $%1$.4f</string>
+
+    <!-- Bonds -->
+    <string name="bono_titulo">M Bond Valuation</string>
+    <string name="cd_formula_bono">Bond valuation formula</string>
+    <string name="bono_valor_nominal">Face Value (e.g. 100.00)</string>
+    <string name="bono_tasa_cupon">Annual Coupon Rate (%)</string>
+    <string name="bono_tasa_mercado">Market Rate (%)</string>
+    <string name="bono_cupones">Remaining Coupons</string>
+    <string name="bono_dias_cupon">Coupon Period in Days (e.g. 182)</string>
+    <string name="bono_resultado_inicial">Bond Price: $0.00</string>
+    <string name="bono_resultado">Price (P): $%1$.2f</string>
+
+    <!-- MainActivity (sample screens) -->
+    <string name="main_pantalla_compacta">Compact Screen</string>
+    <string name="main_pantalla_intermedia">Medium Screen</string>
+    <string name="main_pantalla_ancha">Wide Screen</string>
+</resources>
